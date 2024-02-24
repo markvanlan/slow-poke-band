@@ -1,0 +1,85 @@
+body {
+  font-family: cursive;
+  color: black;
+}
+#set-bg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("./images/blur.JPG");
+  background-size: cover;
+  background-position: 0px;
+  backdrop-filter: blur(12px);
+  color: white;
+  z-index: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto 2em;
+  max-width: 680px;
+  align-items: center;
+  max-width: 500px;
+}
+
+#slow-poke-title {
+  font-size: 4em;
+  font-weight: bold;
+  margin: 20px 0 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0.75;
+  font-family: ui-monospace;
+  letter-spacing: -5px;
+}
+#keeping-score-title{
+  font-size: 1.5em;
+  font-family: monospace;
+  margin: 1em auto 0.25em;
+  letter-spacing: -1px;
+  opacity: 0.75;
+}
+
+#keeping-score-cover {
+  width: 100%;
+}
+
+
+#listen-links{
+  width: 100%;
+  margin-top: 1em;
+}
+.listen-row {
+  display: flex;
+  background: rgb(247 238 238 / 45%);
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  margin: 0.5em 0;
+  padding: 0 1em;
+  font-size: 1.25em;
+  color: #19324a;
+  text-decoration: none;
+  font-family: monospace;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 10px;
+  margin-top: 0.5em;
+}
+
+.social-link img {
+  width: 30px;
+  height: 30px;
+}
