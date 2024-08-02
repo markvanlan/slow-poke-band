@@ -1,5 +1,5 @@
 body {
-  font-family: cursive;
+  font-family: monospace;
   color: black;
 }
 #set-bg {
@@ -26,31 +26,18 @@ body {
   align-items: center;
   max-width: 500px;
 }
-
-#slow-poke-title {
-  font-size: 4em;
-  font-weight: bold;
-  margin: 20px 0 0;
-  width: 100%;
-  text-align: center;
-  opacity: 0.75;
-  font-family: ui-monospace;
-  letter-spacing: -5px;
-}
-#keeping-score-title{
+.record-title {
   font-size: 1.5em;
-  font-family: monospace;
-  margin: 1em auto 0.25em;
-  letter-spacing: -1px;
+  margin-top: 2em;
   opacity: 0.75;
+  letter-spacing: -1px;
 }
 
-#keeping-score-cover {
+.record-cover {
   width: 100%;
 }
 
-
-#listen-links{
+.listen-links{
   width: 100%;
   margin-top: 1em;
 }
